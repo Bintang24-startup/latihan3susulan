@@ -12,4 +12,14 @@ public class BangunDatar {
     public double tinggi;
     public double jariJari;
     public double hasil;
+
+     // Method menghitung luas segitiga
+    public void hitungLuasSegitiga() {
+        hasil = 0.5 * alas * tinggi;
+    }
+
+    // Method menghitung luas lingkaran
+    public void hitungLuasLingkaran() {
+        hasil = 3.14 * jariJari * jariJari;
+    }
 }
