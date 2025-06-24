@@ -8,4 +8,8 @@ package latihan3susulan;
 
 public class BangunDatar {
     // Isi class BangunDatar
+    public double alas;
+    public double tinggi;
+    public double jariJari;
+    public double hasil;
 }
