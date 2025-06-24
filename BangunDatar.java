@@ -13,6 +13,14 @@ public class BangunDatar {
     public double jariJari;
     public double hasil;
 
+     // Constructor untuk mengatur nilai awal ke 0
+    public BangunDatar() {
+        alas = 0;
+        tinggi = 0;
+        jariJari = 0;
+        hasil = 0;
+    }
+
      // Method menghitung luas segitiga
     public void hitungLuasSegitiga() {
         hasil = 0.5 * alas * tinggi;
@@ -21,5 +29,9 @@ public class BangunDatar {
     // Method menghitung luas lingkaran
     public void hitungLuasLingkaran() {
         hasil = 3.14 * jariJari * jariJari;
+    }
+       // Method accessor untuk mengambil nilai hasil
+    public double getHasil() {
+        return hasil;
     }
 }
